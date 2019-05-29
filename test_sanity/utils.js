@@ -93,34 +93,34 @@ const MultiSigWalletJSON = JSON.parse(
 );
 
 const RelayedJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/ValidatorSetRelayed.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/ValidatorSetRelayed.json")
 );
 const RelayJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/ValidatorSetRelay.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/ValidatorSetRelay.json")
 );
 
 const BlockRewardJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/BlockReward.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/BlockReward.json")
 );
 
 const HoldingJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/Holding.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/Holding.json")
 );
 
 const NodeControlSimpleJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/NodeControlSimple.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/NodeControlSimple.json")
 );
 
 const NodeControlLookUpJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/NodeControlLookUp.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/NodeControlLookUp.json")
 );
 
 const NodeControlDbJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/NodeControlDb.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/NodeControlDb.json")
 );
 
 const RegistryJSON = JSON.parse(
-  fs.readFileSync(__dirname + "/../node_modules/ewc-system-contracts/build/contracts/SimpleRegistry.json")
+  fs.readFileSync(__dirname + "/../node_modules/volta-system-contracts/build/contracts/SimpleRegistry.json")
 );
 
 const TestSCurveProvder = require("./blockreward_function");

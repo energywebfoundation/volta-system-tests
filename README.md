@@ -1,4 +1,4 @@
-# EWC and Volta system level tests
+# Volta system level tests
 Based on web3.js, web3.py and Parity Ethereum.
 
 ## Maintainers
@@ -15,7 +15,7 @@ Adam Nagy (@ngyam), Heiko Burkhardt (@hai-ko), Jonas Bentke (@jbentke)
 ```
 npm install
 ```
-This pulls some dependency repos, such as the [contracts repo](https://github.com/energywebfoundation/ewc-system-contracts) and the [chainspec generator](https://github.com/energywebfoundation/ewf-genesis-generator).
+This pulls some dependency repos, such as the [contracts repo](https://github.com/energywebfoundation/volta-system-contracts) and the [chainspec generator](https://github.com/energywebfoundation/ewf-genesis-generator).
 ```
 npm run compile
 ```
